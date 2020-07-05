@@ -1,0 +1,28 @@
+{
+  "name": "Cells",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "gsap": "^3.3.4",
+    "jquery": "^3.5.1",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "popper.js": "^1.16.1",
+    "sass": "^1.26.9",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

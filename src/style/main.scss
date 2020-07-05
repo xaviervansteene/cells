@@ -1,0 +1,57 @@
+@import 'bootstrap/scss/bootstrap.scss';
+
+body,
+html{
+  width:100vw;
+  height:100vh;
+  margin:0;
+  padding:0;
+  font-size: 1em;
+  color:$dark;
+  font-family: 'Playfair Display', serif;
+
+  .hidden{
+    display: none;
+  }
+
+  input{
+    &:focus,
+    &:active{
+      outline: none!important;
+      box-shadow: none!important;
+    }
+  }
+
+  h1{
+    font-size: 60px;
+    font-weight:800;
+    color:$dark;
+  }
+
+  .cell {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:1px solid $dark;
+
+    &.cell-active {
+      background:$dark;
+    }
+  }
+
+  .form-control{
+    border-radius: 0px!important;
+    border:0;
+    border-bottom:1px solid $dark !important;
+    outline: none!important;
+  }
+
+  .btn-launch{
+    padding:1rem 3rem;
+    line-height: 18px;
+    background:$dark;
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+  }
+}
