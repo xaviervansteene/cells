@@ -2,10 +2,15 @@
 
 ## Installation
 
-please run the follwing command line to install dependencies and launch the application
+please run the follwing command line to install dependencies
 
 ```bash
 npm install
+```
+
+and launch the application
+```bash
+npm run start
 ```
 
 ## Architecture
